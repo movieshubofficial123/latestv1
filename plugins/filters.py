@@ -38,7 +38,7 @@ async def filter(client: Bot, message: Message):
             btn.append(
                 [
                     InlineKeyboardButton(file_name, url=file_link),
-                    InlineKeyboardButton(file_size , url=file_link)
+                    InlineKeyboardButton(file_size, url=file_link)
                 ]
             )
 
